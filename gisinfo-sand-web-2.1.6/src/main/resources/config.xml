@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application>
+    <module name="system">
+
+        <group name="default">
+
+            <configValue key="name">GISINFO统一开发框架</configValue>
+
+            <!--是否开启权限过滤-->
+            <configValue key="auth">false</configValue>
+
+            <!--权限验证类型token|session-->
+            <configValue key="authType">token</configValue>
+
+            <!--是否装载数据库配置-->
+            <configValue key = "db">true</configValue>
+
+            <!--日志记录方式 file|table-->
+            <configValue key="log">file</configValue>
+
+        </group>
+
+    </module>
+
+    <module name="security">
+
+        <group name="default">
+
+            <!--数据是否需要加密-->
+            <configValue key="response-encrypt">false</configValue>
+
+        </group>
+
+    </module>
+
+    <!-- 网络配置-->
+    <module name="Http">
+
+        <group name="FileUpload">
+
+            <configValue key="TempDir">E:\\gisinfo\\gisinfo-sand\\</configValue>
+
+            <configValue key="MaxSize">104857600</configValue>
+            <!-- 白名单-->
+            <configValue key="Include">txt,png,docx,doc,dwg,zip,png</configValue>
+
+        </group>
+
+        <group name="Filter">
+            <configValue key="Exclude">/login,/**/favicon.ico</configValue>
+        </group>
+
+        <!--该配置下的请求，将不会对API的返回结果进行封装-->
+        <!--<group name="Filter">-->
+            <!--<configValue key="Encapsulation">/demo</configValue>-->
+        <!--</group>-->
+
+    </module>
+    
+    <!--跨域配置-->
+    <module name="Cors">
+
+        <!-- 通用跨域配置,-->
+        <group name="Commom">
+            <configValue key="Mapping">/**</configValue>
+            <configValue key="Headers">*</configValue>
+            <configValue key="Methods">POST,GET,OPTIONS</configValue>
+            <!--http://localhost:8080-->
+            <configValue key="Origins">*</configValue>
+            <configValue key="Expose">Authorization,response-hash</configValue>
+        </group>
+
+        <!--<group name="single">-->
+            <!--<configValue key="Mapping">/admin</configValue>-->
+            <!--<configValue key="Headers">*</configValue>-->
+            <!--<configValue key="Methods">POST,GET</configValue>-->
+            <!--<configValue key="Origins">http://localhost:8080</configValue>-->
+            <!--<configValue key="Expose">Authorization,response-hash</configValue>-->
+        <!--</group>-->
+
+    </module>
+
+    <module name="gis">
+        <group name="rmi">
+            <configValue key="arcgis">192.168.1.100:6600</configValue>
+        </group>
+        <group name="cad">
+            <configValue key="layer">XZ_选址范围线</configValue>
+        </group>
+        <group name="GmapServer">
+            <configValue key="Ip">http://192.168.3.216:8080/mapServer</configValue>
+        </group>
+        <group name="http://192.168.2.70:6080/arcgis">
+            <configValue key="username">Administrator</configValue>
+            <configValue key="password">gisinfo@123</configValue>
+        </group>
+    </module>
+
+</application>
