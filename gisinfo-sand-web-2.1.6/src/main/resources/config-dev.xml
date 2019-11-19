@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application>
+    <!-- 数据源配置-->
+    <module name="DataSource">
+
+        <group name="default">
+          <configValue key="driverClass">com.mysql.cj.jdbc.Driver</configValue>
+            <configValue key="url">jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=UTC&amp;allowMultiQueries=true</configValue>
+            <configValue key="userName">root</configValue>
+            <configValue key="password">root</configValue>
+            <configValue key="poolSize">5</configValue>
+            <configValue key="maxPoolSize">10</configValue>
+            <configValue key="minPoolSize">5</configValue>
+<!--            <configValue key="clientEncoding">GBK</configValue>-->
+<!--            <configValue key="serverEncoding">ISO-8859-1</configValue>-->
+            <configValue key="test-Connect-Sql">select  1 from dual</configValue>
+        </group>
+
+<!--        <group name="sde">-->
+<!--            <configValue key="driverClass">com.mysql.cj.jdbc.Driver</configValue>-->
+<!--            <configValue key="url">jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=UTC&amp;allowMultiQueries=true</configValue>-->
+<!--            <configValue key="userName">root</configValue>-->
+<!--            <configValue key="password">root</configValue>-->
+<!--            <configValue key="poolSize">5</configValue>-->
+<!--            <configValue key="maxPoolSize">10</configValue>-->
+<!--            <configValue key="minPoolSize">5</configValue>-->
+<!--            <configValue key="clientEncoding">GBK</configValue>-->
+<!--            <configValue key="serverEncoding">ISO-8859-1</configValue>-->
+<!--            <configValue key="test-Connect-Sql">select  1 from dual</configValue>-->
+<!--        </group>-->
+
+<!--        <group name="sde">-->
+<!--            <configValue key="driverClass">org.postgresql.Driver</configValue>-->
+<!--            <configValue key="url">jdbc:postgresql://192.168.0.133:5432/sde</configValue>-->
+<!--            <configValue key="userName">sdedata</configValue>-->
+<!--            <configValue key="password">sdedata</configValue>-->
+<!--            <configValue key="poolSize">5</configValue>-->
+<!--            <configValue key="maxPoolSize">10</configValue>-->
+<!--            <configValue key="minPoolSize">5</configValue>-->
+<!--            <configValue key="test-Connect-Sql"></configValue>-->
+<!--        </group>-->
+
+<!--        <group name="sde">-->
+<!--            <configValue key="driverClass">oracle.jdbc.driver.OracleDriver</configValue>-->
+<!--            <configValue key="url">jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.7.104)(PORT = 1521))(LOAD_BALANCE = YES)(CONNECT_DATA = (SERVICE_NAME = shland)))</configValue>-->
+<!--            <configValue key="userName">sdedata</configValue>-->
+<!--            <configValue key="password">sdedata</configValue>-->
+<!--            <configValue key="poolSize">5</configValue>-->
+<!--            <configValue key="maxPoolSize">10</configValue>-->
+<!--            <configValue key="minPoolSize">5</configValue>-->
+<!--            <configValue key="test-Connect-Sql"></configValue>-->
+<!--        </group>-->
+
+    </module>
+</application>
