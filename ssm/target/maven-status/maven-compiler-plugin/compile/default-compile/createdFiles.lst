@@ -1,0 +1,6 @@
+com\hcq\controller\UserController.class
+com\hcq\service\impl\UserServiceImpl.class
+com\hcq\page\Page.class
+com\hcq\dao\IUserDao.class
+com\hcq\bean\TbUser.class
+com\hcq\service\IUserService.class

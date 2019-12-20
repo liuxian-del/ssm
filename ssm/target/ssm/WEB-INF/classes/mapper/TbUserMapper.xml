@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hcq.dao.IUserDao" >
+
+        <!--查询所有-->
+        <select id="findAll" resultType="com.hcq.bean.TbUser">
+        select * from tb_user
+    </select>
+
+        <!--删除-->
+        <delete id="delete" parameterType="int">
+        delete from tb_user where id=#{id}
+    </delete>
+
+        <!--添加-->
+        <insert id="add" parameterType="com.hcq.bean.TbUser">
+        insert into tb_user(id,username,password) values (#{id},#{username},#{password})
+    </insert>
+
+        <!--修改-->
+        <update id="update" parameterType="com.hcq.bean.TbUser">
+        update tb_user set username=#{username},password=#{password} where id=#{id}
+    </update>
+
+        <!--按id查询一个-->
+        <select id="findOneById" parameterType="int" resultType="com.hcq.bean.TbUser">
+        select * from tb_user where id=#{id}
+    </select>
+
+        <select id="list" resultType="com.hcq.bean.TbUser">
+                select * from tb_user
+                <if test="start!=null and count!=null">
+                        limit #{start},#{count}
+                </if>
+        </select>
+
+        <select id="total" resultType="int">
+        select count(*) from tb_user
+    </select>
+
+</mapper>

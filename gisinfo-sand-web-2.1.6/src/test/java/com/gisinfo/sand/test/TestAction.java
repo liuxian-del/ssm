@@ -11,12 +11,14 @@ public class TestAction {
 
     @Before
     public void init() throws Exception {
-        Class.forName("org.postgresql.Driver");
-        String url = "jdbc:postgresql://192.168.0.133:5432/sde";
-        conn = DriverManager.getConnection(url, "sdedata", "sdedata");
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        String url = "jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8";
+        conn = DriverManager.getConnection(url, "root", "123456");
         Statement stmt = conn.createStatement();
-        stmt.execute("CREATE TABLE geomtest(mycirc polygon)");
-        stmt.close();
+
+
+        //stmt.execute("CREATE TABLE geomtest(mycirc polygon)");
+        //stmt.close();
     }
 
     @Test
@@ -28,8 +30,9 @@ public class TestAction {
 
     @Test
     public void insertCircle() throws SQLException {
-        PreparedStatement ps = conn.prepareStatement("INSERT INTO geomtest(mycirc) VALUES (GeomFromText('POLYGON (( 52 28, 52 23, 58 23, 58 28, 52 28))', 4326))");
-        ps.executeUpdate();
-        ps.close();
+        try (PreparedStatement ps = conn.prepareStatement("INSERT INTO geomtest(mycirc) VALUES (GeomFromText('POLYGON ((11))', 4326))")) {
+            ps.executeUpdate();
+            ps.close();
+        }
     }
 }

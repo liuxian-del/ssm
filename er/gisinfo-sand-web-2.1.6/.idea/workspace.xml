@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7eaa27f0-ce99-43a2-849f-b6e3f64bddfe" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/../../gisinfo-sand-web-new/hs_err_pid13976.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gisinfo-sand-web-new/replay_pid13976.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gisinfo-sand-web-2.1.6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gisinfo-sand-web-2.1.6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gisinfo-sand-web-2.1.6/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../gisinfo-sand-web-2.1.6/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gisinfo-sand-web-2.1.6/src/main/resources/config-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gisinfo-sand-web-2.1.6/src/main/resources/config-dev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gisinfo-sand-web-2.1.6/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gisinfo-sand-web-2.1.6/src/main/resources/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gisinfo-sand-web-2.1.6/src/test/java/com/gisinfo/sand/test/TestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../gisinfo-sand-web-2.1.6/src/test/java/com/gisinfo/sand/test/TestAction.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="G:\GIT\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\23574\.m2\repository" />
+        <option name="mavenHome" value="C:/Program Files/Apache/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="C:\Program Files\Apache\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TpJ5CaWQZtBmZ7IQ50hDIXZFhP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SandApplication">
+    <configuration name="All in gisinfo-sand-web-2.1.6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gisinfo-sand-web-2.1.6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gisinfo-sand-web-2.1.6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gisinfo.sand.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gisinfo.sand.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gisinfo.sand.test.TestAction" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAction.destroy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gisinfo-sand-web-2.1.6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gisinfo.sand.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gisinfo.sand.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gisinfo.sand.test.TestAction" />
+      <option name="METHOD_NAME" value="destroy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SandApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gisinfo-sand-web-2.1.6" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gisinfo.sand.SandApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat8.5.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/war" />
+          </settings>
+        </artifact>
+        <file path="%IDEA_RUN:TOMCAT_HOME%/webapps/ROOT">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ROOT" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_gisinfo-sand-web-2_1_6" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50361" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/src/main/resources/templates/index.html" />
+      <deployment>
+        <artifact name="war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_html_gisinfo-sand-web-2_1_6" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestAction" />
+      <item itemvalue="JUnit.All in gisinfo-sand-web-2.1.6" />
+      <item itemvalue="JUnit.TestAction.destroy" />
+      <item itemvalue="Spring Boot.SandApplication" />
+      <item itemvalue="Tomcat Server.Tomcat8.5.0" />
+      <item itemvalue="Tomcat Server.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestAction" />
+        <item itemvalue="JUnit.TestAction.destroy" />
+        <item itemvalue="Tomcat Server.index.html" />
+        <item itemvalue="JUnit.All in gisinfo-sand-web-2.1.6" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7eaa27f0-ce99-43a2-849f-b6e3f64bddfe" name="默认的" comment="" />
+      <created>1574151176740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574151176740</updated>
+      <workItem from="1574151209056" duration="1171000" />
+      <workItem from="1574152421911" duration="4372000" />
+      <workItem from="1574164932924" duration="299000" />
+      <workItem from="1574170459432" duration="1060000" />
+      <workItem from="1574210025656" duration="1496000" />
+      <workItem from="1574212602412" duration="2271000" />
+      <workItem from="1574215146302" duration="6125000" />
+      <workItem from="1574228666229" duration="10630000" />
+      <workItem from="1574757317624" duration="1248000" />
+      <workItem from="1574819082940" duration="4253000" />
+      <workItem from="1574832045093" duration="1697000" />
+      <workItem from="1574837010046" duration="42000" />
+      <workItem from="1574923513589" duration="204000" />
+      <workItem from="1574923846182" duration="1699000" />
+      <workItem from="1574930394138" duration="1329000" />
+      <workItem from="1574933379760" duration="154000" />
+      <workItem from="1575004746802" duration="878000" />
+      <workItem from="1575009818310" duration="1008000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gisinfo_sand_web_2_1_6$SandApplication.ic" NAME="SandApplication Coverage Results" MODIFIED="1574218683713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
